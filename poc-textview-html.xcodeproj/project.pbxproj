@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8BAB5B2232EF8C002FE352 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BAB5A2232EF8C002FE352 /* MainViewController.swift */; };
 		4CD4F30F2231992A006F0343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F30E2231992A006F0343 /* AppDelegate.swift */; };
-		4CD4F3112231992B006F0343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F3102231992B006F0343 /* ViewController.swift */; };
+		4CD4F3112231992B006F0343 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4F3102231992B006F0343 /* DetailViewController.swift */; };
 		4CD4F3142231992B006F0343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F3122231992B006F0343 /* Main.storyboard */; };
 		4CD4F3162231992D006F0343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F3152231992D006F0343 /* Assets.xcassets */; };
 		4CD4F3192231992D006F0343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4F3172231992D006F0343 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C8BAB5A2232EF8C002FE352 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CD4F30B2231992A006F0343 /* poc-textview-html.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-textview-html.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD4F30E2231992A006F0343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CD4F3102231992B006F0343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CD4F3102231992B006F0343 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4CD4F3132231992B006F0343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD4F3152231992D006F0343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD4F3182231992D006F0343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4CD4F30E2231992A006F0343 /* AppDelegate.swift */,
-				4CD4F3102231992B006F0343 /* ViewController.swift */,
+				4CD4F3102231992B006F0343 /* DetailViewController.swift */,
 				4CD4F3122231992B006F0343 /* Main.storyboard */,
 				4CD4F3152231992D006F0343 /* Assets.xcassets */,
 				4CD4F3172231992D006F0343 /* LaunchScreen.storyboard */,
 				4CD4F31A2231992D006F0343 /* Info.plist */,
+				4C8BAB5A2232EF8C002FE352 /* MainViewController.swift */,
 			);
 			path = "poc-textview-html";
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD4F3112231992B006F0343 /* ViewController.swift in Sources */,
+				4C8BAB5B2232EF8C002FE352 /* MainViewController.swift in Sources */,
+				4CD4F3112231992B006F0343 /* DetailViewController.swift in Sources */,
 				4CD4F30F2231992A006F0343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
